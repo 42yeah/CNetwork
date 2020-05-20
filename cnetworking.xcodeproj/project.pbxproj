@@ -34,6 +34,7 @@
 		F18BF28C2474C23F00287BE3 /* udp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = udp.hpp; sourceTree = "<group>"; };
 		F18BF28E2474E0F300287BE3 /* common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
 		F18BF28F2474E0F300287BE3 /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
+		F18BF2912474F18C00287BE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		F18BF2752474C16800287BE3 = {
 			isa = PBXGroup;
 			children = (
+				F18BF2912474F18C00287BE3 /* README.md */,
 				F18BF2802474C16800287BE3 /* cnetworking */,
 				F18BF27F2474C16800287BE3 /* Products */,
 			);
