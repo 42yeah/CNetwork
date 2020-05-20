@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F18BF2822474C16800287BE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF2812474C16800287BE3 /* main.cpp */; };
+		F18BF28A2474C18600287BE3 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF2882474C18600287BE3 /* tcp.cpp */; };
+		F18BF28D2474C23F00287BE3 /* udp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF28B2474C23F00287BE3 /* udp.cpp */; };
+		F18BF2902474E0F300287BE3 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF28E2474E0F300287BE3 /* common.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		F18BF27E2474C16800287BE3 /* cnetworking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cnetworking; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18BF2812474C16800287BE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F18BF2882474C18600287BE3 /* tcp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tcp.cpp; sourceTree = "<group>"; };
+		F18BF2892474C18600287BE3 /* tcp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tcp.hpp; sourceTree = "<group>"; };
+		F18BF28B2474C23F00287BE3 /* udp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udp.cpp; sourceTree = "<group>"; };
+		F18BF28C2474C23F00287BE3 /* udp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = udp.hpp; sourceTree = "<group>"; };
+		F18BF28E2474E0F300287BE3 /* common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		F18BF28F2474E0F300287BE3 /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				F18BF2812474C16800287BE3 /* main.cpp */,
+				F18BF2882474C18600287BE3 /* tcp.cpp */,
+				F18BF2892474C18600287BE3 /* tcp.hpp */,
+				F18BF28B2474C23F00287BE3 /* udp.cpp */,
+				F18BF28C2474C23F00287BE3 /* udp.hpp */,
+				F18BF28E2474E0F300287BE3 /* common.cpp */,
+				F18BF28F2474E0F300287BE3 /* common.hpp */,
 			);
 			path = cnetworking;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18BF2902474E0F300287BE3 /* common.cpp in Sources */,
+				F18BF28D2474C23F00287BE3 /* udp.cpp in Sources */,
 				F18BF2822474C16800287BE3 /* main.cpp in Sources */,
+				F18BF28A2474C18600287BE3 /* tcp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
