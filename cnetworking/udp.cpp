@@ -18,9 +18,9 @@
 #include "common.hpp"
 
 
-class App {
+class UDPApp {
 public:
-    App() {}
+    UDPApp() {}
     
     void init() {
         sock = socket(AF_INET, SOCK_DGRAM, 0);
@@ -61,7 +61,7 @@ public:
 };
 
 
-void udpHandle(App *app) {
+void udpHandle(UDPApp *app) {
     while (app->running) {
         std::pair<sockaddr_in, std::string> info = app->recv();
         std::cout << "来自 " << inet_ntoa(info.first.sin_addr) << ":" << ntohs(info.first.sin_port) << " 的消息: " << info.second << std::endl;
@@ -79,7 +79,7 @@ sockaddr_in sinify(char *str) {
 
 
 int udpMain() {
-    App app;
+    UDPApp app;
 
     app.init();
     std::cout << "本 UDP Socket 端口是 " << app.port << std::endl;

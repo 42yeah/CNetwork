@@ -22,9 +22,9 @@ enum AppType {
     UNKNOWN, SERVER, CLIENT
 };
 
-class App {
+class TCPApp {
 public:
-    App() : type(UNKNOWN) {}
+    TCPApp() : type(UNKNOWN) {}
     
     bool init() {
         sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -186,7 +186,7 @@ public:
 };
 
 
-void tcpHandle(App *app) {
+void tcpHandle(TCPApp *app) {
     std::vector<std::string> messages;
     while (app->running) {
         messages = app->recv();
@@ -204,7 +204,7 @@ int getPort(char *input) {
 
 
 int tcpMain() {
-    App app;
+    TCPApp app;
     std::cout << "选择要启动的东西:" << std::endl;
     std::cout << "1. 服务器" << std::endl
               << "2. 客户端" << std::endl;

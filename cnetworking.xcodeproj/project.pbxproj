@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182F89BA24A11D880003AE9D /* udp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF28B2474C23F00287BE3 /* udp.cpp */; };
 		F18BF2822474C16800287BE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF2812474C16800287BE3 /* main.cpp */; };
 		F18BF28A2474C18600287BE3 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF2882474C18600287BE3 /* tcp.cpp */; };
-		F18BF28D2474C23F00287BE3 /* udp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF28B2474C23F00287BE3 /* udp.cpp */; };
 		F18BF2902474E0F300287BE3 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BF28E2474E0F300287BE3 /* common.cpp */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +105,7 @@
 		F18BF2762474C16800287BE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = aiofwa;
 				TargetAttributes = {
@@ -136,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182F89BA24A11D880003AE9D /* udp.cpp in Sources */,
 				F18BF2902474E0F300287BE3 /* common.cpp in Sources */,
-				F18BF28D2474C23F00287BE3 /* udp.cpp in Sources */,
 				F18BF2822474C16800287BE3 /* main.cpp in Sources */,
 				F18BF28A2474C18600287BE3 /* tcp.cpp in Sources */,
 			);
